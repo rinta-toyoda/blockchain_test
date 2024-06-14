@@ -11,7 +11,7 @@ const TransactionMiner = require("./app/transaction-miner")
 const isDevelopment = process.env.ENV === "development";
 const REDIS_URL = isDevelopment ?
     "redis://127.0.0.1:6379" :
-    "redis://:p5b49bdbede77edca536f514c9ac4ccc0861e018e95d6d640e275d95ad73963ec@ec2-54-208-206-164.compute-1.amazonaws.com:25059"
+    "redis://:pa5307807611c83544c960f0cb04a20586f1f8c0f65b2d2da6af9264437c44391@ec2-54-208-206-164.compute-1.amazonaws.com:26739"
 
 const app = express();
 const blockchain = new Blockchain();
